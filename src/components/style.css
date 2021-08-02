@@ -1,0 +1,306 @@
+.navigation{
+    list-style: none;
+    background-color:#3525af;
+    padding: 3%  3% 3% 3%;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a{
+    color:white;
+    text-decoration: none;
+    border-radius: 30%;
+    float: right;
+    padding: 1%  1% 1% 1%;
+    }
+
+.navigation ul li a:hover{
+    background-color: #fff;
+color: #3525af;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/*background color for the body*/
+body{
+background-color: rgb(206, 199, 199);
+}
+
+/*properties for the resume page*/
+.resume{
+    width: 800px;
+    background:#fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+.pro-con{
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+/*image used on the top left of the resume*/
+.img-holder img{
+    width: 200px !important;
+    height: 215px;
+    border-radius: 30px;
+
+}
+
+/*properties of the left bar on the resume*/
+.left{
+    background:#292b2f;
+    width: 250px;
+    padding: 0 20px;
+}
+
+/*properties on the right side of the resume*/
+.right{
+  width: calc(100% - 250px);
+}
+
+/*properties for the image holder*/
+.left .img-holder{
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*property for the skills, contact and hobbies heading*/
+.pb{
+    padding-bottom: 20px;
+}
+
+/*properties for the contact, skills, hobbies, education and experience heading*/
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color:#3525af;
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+/*properties for the small border under the headings*/
+.title::before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background:#3525af;
+
+}
+
+/*properties for the skills icons on the left bar*/
+.left .icon{
+    font-size: 20px;
+    color:#3525af;
+}
+
+/*properties for the skills text on the left bar*/
+.left .text{
+    font-weight: 400;
+    color: #3525af;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/*properties for the list items of contact*/
+.contact .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/*properties for the list items and icons for contact */
+.contact .li_wrap .icon{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+/*properties for the list items and text for contact*/
+.contact .li_wrap .text{
+    width: calc(100% - 50px);
+    word-break: break-word;
+    color:#fff;
+}
+
+/*properties for the skills and hobbies unordered list items*/
+.skills ul,
+.hobbies ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+/*properties for the list items border box*/
+.skills .li_wrap,
+.hobbies .li_wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+/*properties for the border box for skills*/
+.skills .li_wrap{
+    background: white;
+}
+
+/*properties for the skills and hobbies text*/
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+    margin-top: 5px;
+}
+
+/*properties for the hobbies border box*/
+.hobbies .li_wrap{
+    border: 2px solid #fff;
+}
+
+/*properties for icon and text in the hobbies border box*/
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text{
+    color:#fff;
+}
+
+/*properties for the border box hover*/
+.hobbies .li_wrap:hover{
+    background: #fff;
+}
+
+/*properties for the hobbies border box icon and text hover */
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover  .text{
+color: #3525af;
+
+}
+
+
+/*properties for the top header section that has the name and about text*/
+.header{
+    background: #292b2f;
+    padding: 15px 30px;
+    color:#fff;
+    height: 240px;
+}
+
+/*properties for header text*/
+.header .name{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3525af;
+}
+
+/*properties for the role text*/
+.header .role{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/*properties for the paragraph text on the header*/
+.header .about{
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+/*properties on the right side of the resume below the header*/
+.right_inner{
+    padding: 30px;
+    color:#292b2f;
+}
+
+/*properties on the right side for education*/
+.right_inner .education{
+    margin-top: 30px;
+}
+
+/*properties for the education and experience */
+.right_inner .li_wrap{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+/*properties for the date on education and experience */
+.right_inner .li_wrap .date{
+    width: 125px;
+    color: #3525af;
+}
+
+/*properties for the information on education and experience*/
+.right_inner .li_wrap .info{
+width:calc(100% - 125px);
+padding-left: 25px;
+position: relative;
+}
+
+/*properties for the information education and experience heading*/
+.right_inner .li_wrap .info_title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #3525af;
+}
+
+/*properties for the information title for education and experience after the heading*/
+.right_inner .li_wrap .info_com{
+   font-weight: 300;
+   font-size: 14px;
+   margin-top: 3px; 
+}
+
+/*positioning for the education and experience*/
+.right_inner .li_wrap .info_cont{
+margin-top: 15px;
+font: bolder;
+}
+
+/*properties for the ball on the border line*/
+.right_inner .li_wrap .info:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left:0;
+    width: 10px;
+    height: 10px;
+    background: #3525af;
+    border-radius: 50%;
+}
+
+/* properties for the border line*/
+    .right_inner .li_wrap .info:after{
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 4px;
+        width: 2px;
+        height: 95%;
+        background: #3525af;
+    }
